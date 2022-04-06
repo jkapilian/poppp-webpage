@@ -1,0 +1,60 @@
+.navbar-img {
+	height: 50px;
+	border-radius: 10px;
+}
+
+body {
+	background-image: url(img/background.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Skranji', cursive;
+}
+
+.box {
+	background-color: rgb(248, 249, 250);
+	opacity: 90%;
+	padding: 25px;
+	margin: 200px 0px 50px 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.info {
+	margin-bottom: 40px;
+}
+
+.car {
+	height: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.car-div {
+	text-align: center;
+}
+
+.slick-prev:before {
+	color: black !important;
+}
+
+.slick-next:before {
+	color: black !important;
+}
+
+.slick-slide > img {
+	transform: scale(.8);
+	transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+
+.slick-center > img {
+	transform: scale(1);
+}
+
+.nav-item:hover {
+	cursor: pointer;
+}
