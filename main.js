@@ -38,14 +38,14 @@ $(document).ready(function() {
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $("#about").offset().top
 		}, 1000);
-		// window.location.href = "/#about";
+		window.location.href = "#about";
 	});
 
 	$("#gameplay-link").click(function() {
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $("#gameplay").offset().top
 		}, 1000);
-		// window.location.href = "/#gameplay";
+		window.location.href = "#gameplay";
 	});
 		
 
