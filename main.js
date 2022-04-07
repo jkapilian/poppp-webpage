@@ -11,24 +11,24 @@ $(document).ready(function() {
 		focusOnSelect: true,
 		responsive: [
 			{
-			breakpoint: 768,
-			settings: {
-				arrows: true,
-				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 3,
-				dots: true,
-			}
-			},
+				breakpoint: 768,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					centerPadding: '0px',
+					slidesToShow: 1,
+					dots: true,
+				}
+			}, 
 			{
-			breakpoint: 480,
-			settings: {
-				arrows: true,
-				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 1,
-				dots: true,
-			}
+				breakpoint: 992,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					centerPadding: '0px',
+					slidesToShow: 3,
+					dots: true,
+				}
 			}
 		]
 	});
